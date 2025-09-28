@@ -1,73 +1,148 @@
-# Welcome to your Lovable project
+# Maria Nuñez Reyes - Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my journey as a Software Engineer with a focus on Frontend Development.
 
-**URL**: https://lovable.dev/projects/4b0e2cab-e846-4c7f-b882-5e8b39a70bb3
+## 🚀 Live Demo
 
-## How can I edit this code?
+Visit the live portfolio: [Portfolio Website](https://lovable.dev/projects/4b0e2cab-e846-4c7f-b882-5e8b39a70bb3)
 
-There are several ways of editing your application.
+## 📋 About
 
-**Use Lovable**
+This portfolio showcases my academic and professional projects, technical skills, and experience in software development. Built with modern web technologies, it features a dark theme with smooth animations and responsive design.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b0e2cab-e846-4c7f-b882-5e8b39a70bb3) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui components
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Animations**: CSS animations with Tailwind
+- **Deployment**: Lovable Platform
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI**: Dark theme with gradient accents and smooth animations
+- **Project Showcase**: Categorized academic and professional projects
+- **Skills Section**: Interactive display of technical skills
+- **Contact Form**: Easy way to get in touch
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Projects Highlighted
 
-Follow these steps:
+### Academic Projects
+- **Tarot**: Web application with custom API for tarot readings
+- **DeliverUS**: Food ordering platform (React + Express.js)
+- **Python for Analytics**: U.S. census data visualization
+- **Decide**: Online voting system (Django + React)
+- **PGPI Project**: E-commerce platform with Stripe integration
+- **Gender Identification**: AI model for handwriting analysis
+- **NexONG**: Educational platform for non-profits
+- **SongBird**: Music recommendation platform (Final Degree Project)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Professional Projects (Eptisa TI)
+- Expression of Interest Generator
+- Asphalt Project Management System
+- Redexis Control Center Viewer (Web GIS)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and visit `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📂 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Skills.tsx      # Skills section
+│   └── Contact.tsx     # Contact section
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── assets/             # Static assets
+└── index.css          # Global styles and design tokens
+```
 
-This project is built with:
+## 🎨 Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The portfolio uses a carefully crafted design system with:
+- **Color Palette**: HSL-based semantic color tokens
+- **Typography**: Modern font hierarchy
+- **Spacing**: Consistent spacing scale
+- **Components**: Reusable UI components with variants
+- **Dark Theme**: Primary dark theme with accent colors
 
-## How can I deploy this project?
+## 📱 Responsive Design
 
-Simply open [Lovable](https://lovable.dev/projects/4b0e2cab-e846-4c7f-b882-5e8b39a70bb3) and click on Share -> Publish.
+- **Mobile First**: Optimized for mobile devices
+- **Tablet**: Enhanced layout for medium screens
+- **Desktop**: Full-featured desktop experience
+- **Large Screens**: Optimized for wide displays
 
-## Can I connect a custom domain to my Lovable project?
+## 🔧 Development
 
-Yes, you can!
+### Available Scripts
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Code Quality
+
+- **TypeScript**: Full type safety
+- **ESLint**: Code linting and formatting
+- **Component Architecture**: Modular, reusable components
+- **Performance**: Optimized for fast loading
+
+## 📞 Contact
+
+- **Email**: marnunrey2@gmail.com
+- **LinkedIn**: [linkedin.com/in/maria-nuñez-reyes-59003423b](https://linkedin.com/in/maria-nuñez-reyes-59003423b)
+- **GitHub**: [github.com/marnunrey2](https://github.com/marnunrey2)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [Lovable](https://lovable.dev) - AI-powered web development platform
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide](https://lucide.dev/)
+
+---
+
+⭐ If you like this project, please give it a star on GitHub!
