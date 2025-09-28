@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my journey as a Software Engin
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [Portfolio Website](https://lovable.dev/projects/4b0e2cab-e846-4c7f-b882-5e8b39a70bb3)
+Visit the live portfolio: [Portfolio Website]([(https://marianunez.vercel.app/])
 
 ## 📋 About
 
@@ -17,7 +17,6 @@ This portfolio showcases my academic and professional projects, technical skills
 - **Build Tool**: Vite
 - **Icons**: Lucide React
 - **Animations**: CSS animations with Tailwind
-- **Deployment**: Lovable Platform
 
 ## ✨ Features
 
@@ -26,7 +25,6 @@ This portfolio showcases my academic and professional projects, technical skills
 - **Project Showcase**: Categorized academic and professional projects
 - **Skills Section**: Interactive display of technical skills
 - **Contact Form**: Easy way to get in touch
-- **SEO Optimized**: Proper meta tags and semantic HTML
 
 ## 📁 Projects Highlighted
 
@@ -44,8 +42,9 @@ This portfolio showcases my academic and professional projects, technical skills
 - Expression of Interest Generator
 - Asphalt Project Management System
 - Redexis Control Center Viewer (Web GIS)
+- Correos Search Tool (Mindbreeze)
 
-## 🚀 Getting Started
+## 🔧 Development
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -95,47 +94,12 @@ src/
 └── index.css          # Global styles and design tokens
 ```
 
-## 🎨 Design System
-
-The portfolio uses a carefully crafted design system with:
-- **Color Palette**: HSL-based semantic color tokens
-- **Typography**: Modern font hierarchy
-- **Spacing**: Consistent spacing scale
-- **Components**: Reusable UI components with variants
-- **Dark Theme**: Primary dark theme with accent colors
-
-## 📱 Responsive Design
-
-- **Mobile First**: Optimized for mobile devices
-- **Tablet**: Enhanced layout for medium screens
-- **Desktop**: Full-featured desktop experience
-- **Large Screens**: Optimized for wide displays
-
-## 🔧 Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
-
-### Code Quality
-
-- **TypeScript**: Full type safety
-- **ESLint**: Code linting and formatting
-- **Component Architecture**: Modular, reusable components
-- **Performance**: Optimized for fast loading
-
 ## 📞 Contact
 
 - **Email**: marnunrey2@gmail.com
 - **LinkedIn**: [linkedin.com/in/maria-nuñez-reyes-59003423b](https://linkedin.com/in/maria-nuñez-reyes-59003423b)
 - **GitHub**: [github.com/marnunrey2](https://github.com/marnunrey2)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
