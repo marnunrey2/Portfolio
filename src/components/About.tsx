@@ -34,8 +34,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Software Engineer with expertise spanning frontend development, full-stack solutions, 
-            GIS applications, and data science. I create digital experiences that combine 
-            technical excellence with user-centered design.
+            GIS applications, and data science.
           </p>
         </div>
 
@@ -61,13 +60,12 @@ const About = () => {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg text-muted-foreground mb-6">
             Currently working at <span className="text-primary font-semibold">Eptisa TI</span>, 
-            developing innovative solutions for infrastructure management and geospatial applications.
+            developing innovative solutions with AI integration and GIS applications.
             My academic background includes projects ranging from AI-powered systems to 
             full-stack web platforms.
           </p>
           <p className="text-lg text-muted-foreground">
-            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, 
-            and sharing knowledge with the developer community.
+          I love creating digital experiences that combine technical excellence with user-centered design.
           </p>
         </div>
       </div>

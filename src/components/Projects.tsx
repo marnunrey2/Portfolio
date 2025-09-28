@@ -9,59 +9,65 @@ const Projects = () => {
     {
       title: "SongBird",
       description: "Music recommendation platform aggregating data from multiple streaming services with content-based recommendation engine.",
-      technologies: ["React", "Django", "REST APIs", "Spotify API", "PostgreSQL", "AWS"],
-      github: "#",
+      technologies: ["React", "Django", "REST APIs", "PostgreSQL", "AWS"],
+      github: "https://github.com/marnunrey2/TFG-songbird",
       featured: true
-    },
-    {
-      title: "NexONG",
-      description: "Web platform supporting educational management in underprivileged areas. Built with 20-person team using Scrum methodology.",
-      technologies: ["React", "Django", "REST APIs", "Scrum", "User Management"],
-      github: "#"
-    },
-    {
-      title: "Decide Voting System",
-      description: "Online voting system with Django REST API, PostgreSQL storage, and React frontend. Includes admin poll management.",
-      technologies: ["Django REST", "PostgreSQL", "React", "Authentication"],
-      github: "#"
-    },
-    {
-      title: "DeliverUS",
-      description: "Food ordering platform with product catalog, user orders, profiles, and admin interface. First React project.",
-      technologies: ["React", "Express.js", "Node.js", "MongoDB", "API Layer"],
-      github: "#"
-    },
-    {
-      title: "Tarot Web App",
-      description: "Web application with custom API simulating tarot readings. Features daily draws, spreads, and interactive games.",
-      technologies: ["Flask", "Python", "JavaScript", "REST API"],
-      github: "#"
     },
     {
       title: "Gender ID via Handwriting",
       description: "AI model predicting writer gender from handwriting samples. Achieved ~70% accuracy using image processing and ML.",
-      technologies: ["Python", "OpenCV", "scikit-learn", "Image Processing", "ML"],
-      github: "#"
+      technologies: ["Python", "OpenCV", "scikit-learn", "Image Processing", "Artificial Intelligence", "Machine Learning"],
+      github: "https://github.com/marnunrey2/PIC-Identificacion-genero"
+    },
+    {
+      title: "NexONG",
+      description: "Web platform supporting educational management in underprivileged areas. Built with 20-person team using Scrum methodology.",
+      technologies: ["React", "Django", "REST API", "PostgreSQL", "Scrum"],
+      github: "https://github.com/ISPP-G5"
+    },
+    {
+      title: "Decide Voting System",
+      description: "Online voting system where admins could manage voters, create polls and questions; users could log in and vote.",
+      technologies: ["React", "Django", "REST API", "PostgreSQL", "Authentication"],
+      github: "https://github.com/marnunrey2/decide-marnunrey2"
+    },
+    {
+      title: "DeliverUS",
+      description: "Food ordering platform with product catalog, user orders, profiles, and admin interface. First React project.",
+      technologies: ["React", "Express.js", "Node.js", "MariaDB"],
+      github: "https://github.com/IISSI2-IS/frontend-deliverables-l-ingles-3"
+    },
+    {
+      title: "Tarot Web App",
+      description: "Web application with custom API simulating tarot readings. Features daily draws, spreads, and interactive games.",
+      technologies: ["Java", "HTML", "REST API"],
+      github: "https://github.com/marnunrey2/Tarot1"
     }
   ];
 
   const professionalProjects = [
     {
-      title: "Redexis Control Center Viewer",
-      description: "Web GIS application for monitoring infrastructure networks. Responsible for frontend development and GIS programming.",
-      technologies: ["Web GIS", "Frontend", "Map Layers", "Geospatial Visualization"],
-      company: "Eptisa TI"
-    },
-    {
       title: "Expression of Interest Generator",
-      description: "Automated tool for creating and managing expressions of interest in internal processes. Backend and frontend contributions.",
-      technologies: ["Backend Logic", "Frontend Interfaces", "Process Automation"],
+      description: "Automated tool for creating and managing expressions of interest in internal processes with Gemini AI integration.",
+      technologies: ["React", "Python", "REST API", "FastAPI", "Gemini AI", "Process Automation"],
       company: "Eptisa TI"
     },
     {
       title: "Asphalt Management Solution",
-      description: "Solution for managing roadworks and asphalt maintenance with data modeling and visual dashboards.",
-      technologies: ["Data Modeling", "External Integrations", "Dashboards", "Infrastructure"],
+      description: "Solution for managing roadworks and asphalt maintenance with data modeling and GIS visualization.",
+      technologies: ["React", "Python", "REST API", "FastAPI", "Math Algorithms", "GIS Visualization"],
+      company: "Eptisa TI"
+    }, 
+    {
+      title: "Redexis Control Center Viewer",
+      description: "Web GIS application for monitoring infrastructure networks. Responsible for frontend development and GIS programming.",
+      technologies: ["GIS", "ArcGIS Pro", "ArcGIS Experience Builder", "JavaScript", "WebMaps", "FeatureLayers", "Utility Networks"],
+      company: "Eptisa TI"
+    }, 
+    {
+      title: "Correos Search Tool (Mindbreeze)",
+      description: "Indexing and search tool for products, using Mindbreeze to improve search relevance.",
+      technologies: ["Mindbreeze", "Indexing", "Search Optimization"],
       company: "Eptisa TI"
     }
   ];
@@ -78,7 +84,7 @@ const Projects = () => {
           </CardTitle>
           <div className="flex gap-2">
             {project.github && (
-              <Button variant="ghost" size="sm" className="p-2">
+              <Button variant="ghost" size="sm" className="p-2" onClick={() => window.open(project.github, '_blank')}>
                 <Github className="w-4 h-4" />
               </Button>
             )}

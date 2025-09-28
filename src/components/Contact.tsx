@@ -1,6 +1,5 @@
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const contactInfo = [
@@ -25,7 +24,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 relative">
+    <section id="contact" className="min-h-screen w-full flex items-center justify-center">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
@@ -56,35 +55,6 @@ const Contact = () => {
                 </Card>
               );
             })}
-          </div>
-
-          <div className="text-center">
-            <Card className="card-glow border-border/50 max-w-2xl mx-auto">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Ready to collaborate?</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Whether you're looking for a frontend developer, need help with a full-stack project, 
-                  or want to discuss innovative tech solutions, I'd love to hear from you.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button 
-                    size="lg"
-                    className="hero-gradient text-primary-foreground hover:opacity-90 transition-opacity"
-                    onClick={() => window.open('mailto:marnunrey2@gmail.com', '_blank')}
-                  >
-                    Send Me an Email
-                  </Button>
-                  <Button 
-                    variant="outline"
-                    size="lg"
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() => window.open('https://linkedin.com/in/maria-nuñez-reyes-59003423b', '_blank')}
-                  >
-                    Connect on LinkedIn
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

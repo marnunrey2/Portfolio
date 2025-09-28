@@ -9,15 +9,15 @@ const Skills = () => {
     },
     {
       title: "Backend Development", 
-      skills: ["Django", "Flask", "Express.js", "Node.js", "REST APIs", "PostgreSQL", "MongoDB", "Authentication"]
+      skills: ["Django", "Python", "Java", "Express.js", "Node.js", "REST APIs", "PostgreSQL", "MariaDB", "MySQL", "Authentication"]
     },
     {
       title: "Data Science & AI",
-      skills: ["Python", "Pandas", "NumPy", "scikit-learn", "OpenCV", "Jupyter", "Data Visualization", "Machine Learning"]
+      skills: ["Python", "Pandas", "NumPy", "scikit-learn", "OpenCV", "Jupyter", "Gemini API", "Data Visualization", "Machine Learning"]
     },
     {
       title: "GIS & Mapping",
-      skills: ["Web GIS", "Geospatial Data", "Map Layers", "Interactive Maps", "GeoPandas", "Folium", "Infrastructure Mapping"]
+      skills: ["Web GIS", "Geospatial Data", "ArcGIS", "WebMaps", "Feature Layers", "Experience Builder", "Utility Networks"]
     },
     {
       title: "Tools & Technologies",
@@ -25,7 +25,7 @@ const Skills = () => {
     },
     {
       title: "Specialized Skills",
-      skills: ["Image Processing", "Content-based Algorithms", "Payment Integration", "User Management", "Process Automation"]
+      skills: ["Image Processing", "Content-based Algorithms", "Payment Integration", "User Management", "Process Automation", "Woosh", "Mindbreeze", "Indexing"]
     }
   ];
 
